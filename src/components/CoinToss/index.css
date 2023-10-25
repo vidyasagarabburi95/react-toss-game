@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 80vh;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+h1 {
+  font-size: 28px;
+  color: #a35200;
+  font-weight: 500;
+}
+.h-t {
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+  margin: 20px;
+}
+button {
+  color: #a35200;
+  background-color: #f9d423;
+  height: 36px;
+  width: 120px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+.last {
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  width: 180px;
+  height: 170px;
+}
+.heads,
+.tails,
+.total {
+  margin: 15px;
+}
